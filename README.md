@@ -8,7 +8,7 @@ Obs: Caso queira remover ou adicionar algum pacote, procure pelos arquivos confi
 Obs: Os scripts precisam ser rodados num terminal executado como administrador
 
 
-#Processo de Instação:
+# Processo de Instação:
 
 1. Aperte o botão do Windows e digite cmd
 2. Em cima da opção do cmd, clique com o botão direito e escolha a opção "Executar como administrador"
