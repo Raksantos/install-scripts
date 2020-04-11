@@ -5,6 +5,8 @@ Obs: Caso seja a primeira vez usando o script, selecione a opção 3 para obter 
 
 Obs: Caso queira remover ou adicionar algum pacote, procure pelos arquivos config e edite-os.
 
+Obs: Os scripts precisam ser rodados num terminal executado como administrador
+
 # Windows - Devs:
 
     1. Vim

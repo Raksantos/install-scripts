@@ -4,7 +4,7 @@ cls
 set currentpath=%cd%
 
 echo "Instalando Apps com Chocolatey"
-echo "Scripts precisam ser rodados no modo admin"
+echo "Scripts precisam ser rodados no modo admin do cmd"
 ECHO.
 
 :MENU
