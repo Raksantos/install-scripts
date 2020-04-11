@@ -1,39 +1,41 @@
 # install-scripts
 Repositório para disponibilizar scripts de instalação de programas em SO's recentemente instalados
 
-# Pré-requisito: Chocolatey
+Obs: Caso seja a primeira vez usando o script, selecione a opção 3 para obter o Chocolatey.
 
-Para que o script funcione da maneira devida é necessário a instalação do Chocolatey antes,
-gerenciador de pacotes para o windows. Para a instalação, acesse: https://chocolatey.org/install
-
-Obs: Lembre-se de executar os scripts do windows no terminal com modo administrador
+Obs: Caso queira remover ou adicionar algum pacote, procure pelos arquivos config e edite-os.
 
 # Windows - Devs:
 
-    1. Python3
-    2. Firefox
-    3. Spotify
-    4. Node.js
-    5. Git
-    6. Chrome
-    7. VLC
-    8. Java SE
-    9. Adobe Reader
-    10. Winrar
-    11. PuTTY
-    12. Visual Studio Installer
-    13. Steam
-    14. Virtual Box
-    15. Discord
-    16. Postman
+    1. Vim
+    2. Git
+    3. PuTTY
+    4. JDK8
+    5. VirtualBox
+    6. Python3
+    7. OpenSSH
+    8. Wireshark
+    9. VisualStudio Code
+    10. Postman
+    11. Arduino
+    12. Curl
+    13. Ruby
+    14. Libre Office
+    15. Node.js
 
 # Windows - Normal Users: 
 
-    1. Firefox
-    2. Spotify
-    3. Chrome
-    4. VLC
-    5. Adobe Reader
-    6. Winrar
-    7. Steam
-    8. Discord
+    1. Adober Reader
+    2. Google Chrome
+    3. Firefox
+    4. 7-Zip
+    5. JRE8
+    6. VLC
+    7. Skype
+    8. CCleaner
+    9. Dropbox
+    10. Steam
+    11. Spotify
+    12. GoogleDrive
+    13. Winrar
+    14. Discord
