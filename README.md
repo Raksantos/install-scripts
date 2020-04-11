@@ -7,6 +7,26 @@ Obs: Caso queira remover ou adicionar algum pacote, procure pelos arquivos confi
 
 Obs: Os scripts precisam ser rodados num terminal executado como administrador
 
+
+#Processo de Instação:
+
+1. Aperte o botão do Windows e digite cmd
+2. Em cima da opção do cmd, clique com o botão direito e escolha a opção "Executar como administrador"
+3. Ao cmd abrir, utilize o comando cd .. até chegar no diretório raíz
+4. Vá agora até o diretório com os arquivos utilizando o comando cd
+
+Exemplo: cd \Users\nome_do_seu_usuario\Desktop\initiall-scripts\
+
+(caso seja no windows)
+
+5. entre na pasta do seu sistema operacional usando o comando cd
+
+Exemplo: cd windows\
+
+(caso esteja no windows)
+
+6. execute o script digitando o nome dele no terminal e apertando enter.
+
 # Windows - Devs:
 
     1. Vim
