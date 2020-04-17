@@ -1,13 +1,20 @@
 #!/bin/bash
 
 installUserApps(){
-    programs=$(<userApps.txt);
-    $programs;
+    sudo apt-get install vlc -y
+    sudo snap install discord
+    sudo snap install spotify
 }
 
 installDevApps(){
-    programs=$(<devApps.txt);
-    $programs;
+    sudo apt-get install mysql-server -y
+    sudo apt-get install vim -y
+    sudo apt-get install r-base -y
+    sudo apt-get install manpages-dev -y
+    sudo apt-get install wireshark -y
+    sudo tar -xvzf postman-linux-x64.tar.gz -C /opt
+    sudo apt install virtualbox virtualbox-ext-pack virtualbox-qt -y
+    sudo snap install node --classic --channel=8
 }
 
 preparingSO(){
@@ -27,7 +34,7 @@ preparingSO(){
 
 menu(){
     option=-1;
-    while [ $option != 3 ]
+    while [ $option != 4 ]
     do
     read -p "Por favor, informe a sua opção:"$'\n\n'"1 - Instalar apps de usuários padrão;"$'\n'"2 - Instalar apps de desenvolvedores;"$'\n'"3 - Preparar o SO;"$'\n'"4 - Sair: " option;
 
