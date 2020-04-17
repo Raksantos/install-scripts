@@ -21,7 +21,8 @@ preparingSO(){
     sudo apt-get install build-essential checkinstall libcurl4-openssl-dev bison flex qt5-default qttools5-dev libssl-dev libgtk-3-dev libpcap-d -y
     sudo add-apt-repository ppa:wireshark-dev/stable
     sudo add-apt-repository ppa:wireshark-dev/stable 
-    sudo apt-get update    
+    sudo apt-get update
+    sudo apt-get upgrade
 }
 
 menu(){

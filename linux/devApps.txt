@@ -6,5 +6,5 @@ sudo apt-get install manpages-dev -y
 sudo apt-get install wireshark -y
 sudo tar -xvzf postman-linux-x64.tar.gz -C /opt
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
-sudo apt install virtualbox -y
+sudo apt install virtualbox virtualbox-ext-pack virtualbox-qt -y
 sudo snap install node --classic --channel=8
