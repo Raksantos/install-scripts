@@ -21,7 +21,7 @@ preparingSO(){
     sudo apt-get install build-essential checkinstall libcurl4-openssl-dev bison flex qt5-default qttools5-dev libssl-dev libgtk-3-dev libpcap-d -y
     sudo add-apt-repository ppa:wireshark-dev/stable
     sudo add-apt-repository ppa:wireshark-dev/stable 
-    sudo apt-get update
+    sudo apt-get update -y
     sudo apt-get upgrade
 }
 
@@ -29,7 +29,7 @@ menu(){
     option=-1;
     while [ $option != 3 ]
     do
-    read -p "Por favor, informe a sua opção:"$'\n\n'"1 - Instalar apps de usuários padrão;"$'\n'"2 - Instalar apps de desenvolvedores;"$'\n'"3 - Preparar o SO;"$'zn'"4 - Sair: " option;
+    read -p "Por favor, informe a sua opção:"$'\n\n'"1 - Instalar apps de usuários padrão;"$'\n'"2 - Instalar apps de desenvolvedores;"$'\n'"3 - Preparar o SO;"$'\n'"4 - Sair: " option;
 
     echo $'\n';
 
