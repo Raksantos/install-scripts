@@ -61,3 +61,19 @@ Exemplo: cd windows\
     12. GoogleDrive
     13. Winrar
     14. Discord
+
+# Linux - Normal Users:
+
+    1. VLC
+    2. Discord
+    3. Spotify
+
+# Linux - Devs: 
+
+    1. Mysql-server
+    2. Vim
+    3. R
+    4. GCC
+    5. Wireshark
+    6. Virtual Box
+    7. NodeJS

@@ -12,7 +12,6 @@ installDevApps(){
     sudo apt-get install r-base -y
     sudo apt-get install manpages-dev -y
     sudo apt-get install wireshark -y
-    sudo tar -xvzf postman-linux-x64.tar.gz -C /opt
     sudo apt install virtualbox virtualbox-ext-pack virtualbox-qt -y
     sudo snap install node --classic --channel=8
 }
