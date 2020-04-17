@@ -1,4 +1,6 @@
-chrome
-firefox
-spotify
-discord
+sudo apt-get install vlc -y
+sudo snap install discord
+sudo snap install spotify
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+
